@@ -1,0 +1,8 @@
+Hi! If you are reading this you are either forking this or I have invited you to work with me on this project! This is a simple bot I made for my friends to post answers!
+
+How to add new answers:
+1. Go to main.py
+2. Copy and paste this line of code:
+if msg.startswith('What are the answers for (this work)?':
+    await message.channel.send('Enter the answer here')
+3. Done!
