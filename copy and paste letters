@@ -1,0 +1,3 @@
+  if msg.startswith('command'):
+    embed=discord.Embed(title='title', description='Answer', color=0x(search up a random color hex value on google))
+    await message.channel.send(embed=embed)

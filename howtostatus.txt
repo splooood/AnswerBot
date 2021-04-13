@@ -1,0 +1,7 @@
+For "Watching" = await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="some video"))
+
+For "Playing" = await client.change_presence(status=discord.Status.idle, activity=discord.Game('Game Name'))
+
+For "Listening" =   await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Song Name"))
+
+For "Streaming" =   await client.change_presence(activity=discord.Activity(type=discord.ActivityType.Streaming, name="Song Name"))
