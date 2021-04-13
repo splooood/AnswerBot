@@ -13,6 +13,12 @@ from discord.ext import commands but fuck that man. I can't even get it to work,
 Why are you even here in the first place? This is just some terrible bot I made, man.
 There is literally no point in being here.
 
+#                                                # 
+# 
+# 
+# 
+# 
+
 
 
 

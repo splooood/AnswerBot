@@ -18,7 +18,7 @@ async def on_message(message):
   msg = message.content
 
   if msg.startswith('!ela'):
-    embed=discord.Embed(title='Here are the answers for  Dragonwings quiz 3 and 4  https://cdn.discordapp.com/attachments/826462226511560734/830928266713890886/Dragonwings_quiz_3_and_4.txt', color=0xff6961)
+    embed=discord.Embed(title='Answers', description = "Here are the answers for  Dragonwings quiz 3 and 4: https://cdn.discordapp.com/attachments/826462226511560734/830928266713890886/Dragonwings_quiz_3_and_4.txt", color=0xff6961)
     await message.channel.send(embed=embed)
   
   
@@ -39,7 +39,7 @@ async def on_message(message):
     await message.channel.send(embed=embed)
   
   if msg.startswith('!ss'):
-    embed=discord.Embed(title='We cannot post the answers for social studies to it needing a unqine answer, Sorry about that :p', color=0x9932CC)
+    embed=discord.Embed(title='Error.', description="Answers for social studies cannot be posted due to it needing a unique answer. Sorry :P! If this is untrue, use !missinghomework", color=0x9932CC)
     await message.channel.send(embed=embed)
 
   if msg.startswith('!help'):
